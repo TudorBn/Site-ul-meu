@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagine în colț dreapta sus</title>
+  <style>
+    .poza-colt {
+      position: fixed;
+      top: 10px;     /* distanța față de sus */
+      right: 10px;   /* distanța față de dreapta */
+      width: 120px;  /* dimensiunea imaginii */
+      border-radius: 50%; /* opțional: imagine rotundă */
+      box-shadow: 0 0 10px rgba(0,0,0,0.4); /* umbră frumoasă */
+    }
+  </style>
+   <style>
+    body {
+      background-color: #D6F1FF; /* albastru deschis pastel */
+      font-family: Arial, sans-serif;
+      color: #000000; /* culoare text negru pentru contrast */
+    }
+  </style>
+</head>
+<body>
+ 
+
+  <!-- Poza cu tine -->
+  <img src="poze/img16.jpg" alt="Eu" class="poza-colt">
+
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contactează-mă</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Despre Mine</a></li>
+                <li><a href="Viata si munca">Viata si munca</a></li>
+                <li><a href="hobbyuri.html">Hobby-uri</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Date de contact</h2>
+        <p>Email: <strong>tudorbunescu2p3@gmail.com</strong></p>
+        <p>Telefon: <strong>+37369683533</strong></p>
+        <p>Retea web1: <a href="https://www.instagram.com/tudor.bunescu/" target="_blank">Insta</a></p>
+        <p>Retea web2: <a href="https://www.facebook.com/tudor.bunescu.731" target="_blank">Facebook</a></p>
+
+        <!-- Formular de contact trimis prin Formspree -->
+        <form action="https://formspree.io/f/xyzabcde" method="POST">
+            <label for="email">Emailul tău:</label><br>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label for="message">Lasă un mesaj:</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea><br><br>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </main>
+</body>
+</html>
